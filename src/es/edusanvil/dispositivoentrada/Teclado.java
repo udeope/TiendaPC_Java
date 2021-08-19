@@ -11,7 +11,7 @@ public class Teclado extends DispositivoEntrada{
 
     @Override
     public String toString() {
-        return "Teclado{" + "idTeclado=" + idTeclado + '}';
+        return "Teclado{" + "idTeclado=" + idTeclado + "marca = " + this.getMarca() + '}';
     }
     
     

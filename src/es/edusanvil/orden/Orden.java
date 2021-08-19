@@ -6,7 +6,7 @@ public class Orden {
     private int idOrden;
     private Computadora computadoras[];
     private static int contadorOrdenes;
-    private static int contadorComputadoras;
+    private int contadorComputadoras;
     private static final int MAX_COMPUTADORAS = 5;
     
     public Orden(){
@@ -24,7 +24,7 @@ public class Orden {
     
     public void mostrarOrden(){
         System.out.println("idOrden: " + this.idOrden);
-        System.out.println("Mostrar computadoras: ");
+        System.out.println("Mostrar orden: ");
         for (int i = 0; i < contadorComputadoras; i++) {
             System.out.println(i + " - " + this.computadoras[i]);
         }
